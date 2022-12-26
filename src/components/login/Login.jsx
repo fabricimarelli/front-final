@@ -35,8 +35,8 @@ export const Login = () => {
       <nav className={styles.nav}>
         <h1>Users App</h1>
         <div className={styles.containerActions}>
-          <button>Sign In</button>
-          <button>Sign Up</button>
+          {/* <button>Sign In</button>
+          <button>Sign Up</button> */}
         </div>
       </nav>
       <Paper elevation={10} className={styles.paperStyle}>
