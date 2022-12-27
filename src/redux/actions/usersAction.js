@@ -111,6 +111,7 @@ export const login = (email, password, history) => async (dispatch) => {
     }
   } catch (error) {
     dispatch(setError(error?.response?.data?.error));
+    return alert('Email or password incorrect')
   }
 };
 export const getUsersAsync = () => async (dispatch) => {
